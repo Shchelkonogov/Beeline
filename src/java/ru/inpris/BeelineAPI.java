@@ -13,6 +13,9 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Response;
 import java.security.cert.X509Certificate;
 
+/**
+ * Сервлет отправки ssl запроса
+ */
 @WebServlet(name = "BeelineAPI", urlPatterns = "/api")
 public class BeelineAPI extends HttpServlet {
 
